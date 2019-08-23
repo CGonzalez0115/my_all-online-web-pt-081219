@@ -12,6 +12,7 @@ end
 
 if block_return_values.include?(false)
     false
+    binding.pry
   else
     true
   end
